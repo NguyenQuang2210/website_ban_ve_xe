@@ -15,6 +15,9 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { RatingComponent } from './components/rating/rating.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ListComponent } from './components/list/list.component';
+import { BookingComponent } from './components/booking/booking.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,13 +33,16 @@ import { ListComponent } from './components/list/list.component';
     LayoutComponent,
     RatingComponent,
     AboutusComponent,
-    ListComponent
+    ListComponent,
+    BookingComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ModalModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
