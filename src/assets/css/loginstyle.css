@@ -1,56 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #fff; /* Màu chữ là trắng */
-}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ee5057;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
 
-
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #2c3e50;
-}
-
-.login-form {
-    background-color: #e74c3c; /* Màu nền là đỏ */
-    padding: 40px; /* Tăng padding để làm cho form lớn hơn */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Tăng độ mờ của shadow */
-}
-
-.login-form h2 {
-    margin-bottom: 30px; /* Tăng khoảng cách dưới của tiêu đề */
-    text-align: center;
-}
-
-.input-group {
-    margin-bottom: 20px; /* Tăng khoảng cách giữa các input group */
-}
-
-.input-group label {
-    font-size: 18px;
-    display: block;
-    margin-bottom: 10px; /* Tăng khoảng cách dưới của nhãn */
-}
-
-.input-group input {
-    border-radius: 5px;
-    border: none;
-}
-
-button {
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #3498db; /* Màu nút là màu xanh */
-    color: #fff;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9; /* Màu nút hover là màu xanh nhạt */
-}
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f54242, #f57e42)
+    }

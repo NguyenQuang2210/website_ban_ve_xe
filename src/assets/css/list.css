@@ -1,0 +1,19 @@
+.form-check-input1
+{
+    color: black;
+    font-size: 20px;
+}
+.filter{
+    float:left;
+    border-radius: 30px;
+    background-color: rgb(244, 245, 247);padding:10px;
+}
+.list-tour{
+    float:right;
+    background-color: white;
+}
+.item-tour{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    height: 80px;
+}
