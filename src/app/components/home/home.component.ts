@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor(private modalService: BsModalService) {}
 
   ngOnInit(): void {
-    this.openModalBooking()
+    // this.openModalBooking()
   }
 
   openModalBooking() {
